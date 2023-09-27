@@ -1,3 +1,51 @@
 * {
-    border: 2px solid red;
+    list-style-type: none;
+    text-decoration: none;
 }
+
+.header {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header:visited {
+        text-decoration: none;
+        color:black;
+}
+
+.recipe-list {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.recipe-list {
+    padding: 20px;
+}
+
+.recipe {
+    padding: 15px;
+    margin: 15px;
+    background-color: #f0f0f3;
+    box-shadow: 20px 10px;
+}
+
+.recipe {
+    font-family: 'Inconsolata', monospace;
+    text-decoration: none;
+}
+
+a:hover {
+    color:#09b5b5; 
+    cursor: pointer;
+    transition: ease-in;
+}
+
+a:visited {
+    color:black;
+}
+
+/* {
+    border: 2px solid black;
+} */
