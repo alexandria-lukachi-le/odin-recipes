@@ -46,12 +46,6 @@
     cursor: pointer;
 }
 
-/* .recipe:hover {
-    color:firebrick; 
-    cursor: pointer;
-    transition: ease-in-out 0.3s;
-} */
-
 .recipe-link:hover {
     color:lightcoral; 
     cursor: pointer;
@@ -68,7 +62,5 @@ a:visited {
     margin:auto;
     border-radius: 15px;
 }
-/* {
-    border: 2px solid black;
-} */
+
 
